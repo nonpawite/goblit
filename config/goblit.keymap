@@ -173,11 +173,11 @@
         lower_layer {
             display-name = "lower";
             bindings = <
-&kp TILDE    &kp AT    &kp LBRC  &kp RBRC  &kp PRCNT                  &trans      &trans        &trans        &trans      &kp LC(LG(Q))
-&kp CARET    &kp HASH  &kp LPAR  &kp RPAR  &kp DLLR                   &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &trans
-&amps_morph  &kp LT    &kp LBKT  &kp RBKT  &kp GT     &trans  &trans  &trans      &trans        &trans        &trans      &trans
+&kp ESC  &trans  &trans  &trans  &trans                  &trans      &trans        &trans        &trans      &kp LC(LG(Q))
+&trans   &trans  &trans  &trans  &trans                  &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &trans
+&trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans        &trans        &trans      &trans
 
-             &trans    &trans    &trans                       &trans  &trans
+         &trans  &trans  &trans                  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -190,11 +190,11 @@
         raise_layer {
             display-name = "raise";
             bindings = <
-&kp NUMBER_1  &kp N2  &kp N3     &kp N4            &kp N5                             &kp N6    &kp N7    &kp N8         &kp N9     &kp N0
-&kp TAB       &trans  &kp GRAVE  &kp MINUS         &kp EQUAL                          &kp LEFT  &kp DOWN  &kp UP         &kp RIGHT  &kp SINGLE_QUOTE
-&kp LC(Z)     &trans  &kp LC(C)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans  &trans    &trans    &kp BACKSLASH  &trans     &kp LEFT_SHIFT
+&kp NUMBER_1  &kp N2                &kp N3     &kp N4            &kp N5                             &kp N6    &kp N7    &kp N8         &kp N9     &kp N0
+&kp TAB       &trans                &kp GRAVE  &kp MINUS         &kp EQUAL                          &kp LEFT  &kp DOWN  &kp UP         &kp RIGHT  &kp SINGLE_QUOTE
+&kp LC(Z)     &trans                &kp LC(C)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans  &trans    &trans    &kp BACKSLASH  &trans     &kp LEFT_SHIFT
 
-              &trans  &trans     &trans                                       &trans  &trans
+              &kp LA(LEFT_COMMAND)  &trans     &trans                                       &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
