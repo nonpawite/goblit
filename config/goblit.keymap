@@ -125,6 +125,17 @@
             require-prior-idle-ms = <150>;
         };
 
+        /* layer-tap that switches layer as soon as another key is pressed and released while held (default &lt waits the full tapping term) */
+
+        lt_balanced: lt_balanced {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            bindings = <&mo>, <&kp>;
+
+            flavor = "balanced";
+            tapping-term-ms = <200>;
+        };
+
         amps_morph: amps_morph {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
@@ -172,7 +183,7 @@
 &kp A  &kp S                   &kp D      &kp F                     &kp G                                      &kp H           &kp J  &kp K      &kp L    &kp SEMI
 &kp Z  &kp X                   &kp C      &kp V                     &kp B  &lt (1) LG(SPACE)  &trans           &kp N           &kp M  &kp COMMA  &kp DOT  &kp FSLH
 
-       &mt LEFT_COMMAND ENTER  &kp SPACE  &mt_balanced LEFT_ALT LC(SPACE)                            &lt 2 BACKSPACE  &kp LEFT_SHIFT
+       &mt LEFT_COMMAND ENTER  &kp SPACE  &mt_balanced LEFT_ALT LC(SPACE)                            &lt_balanced 2 BACKSPACE  &kp LEFT_SHIFT
             >;
 
             sensor-bindings = <&enc_scroll SCRL_DOWN SCRL_UP>;
