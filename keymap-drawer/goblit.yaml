@@ -11,105 +11,105 @@ layers:
   - I
   - O
   - P
-  - '&SOCD A'
+  - A
   - S
-  - '&SOCD D'
+  - D
   - F
   - G
   - H
   - J
   - K
   - L
-  - ;
+  - ''''
   - Z
   - X
   - C
   - V
   - B
-  - LEFT GUI
-  - {t: /, s: \}
+  - {t: Gui+SPACE, h: lower}
+  - {t: ▽, type: trans}
   - N
   - M
   - ','
   - .
   - /
-  - LSHFT
-  - ENTER
-  - {t: lower, s: DEL}
-  - {t: raise, s: BSPC}
+  - {t: ENTER, h: LEFT COMMAND}
   - SPACE
+  - {t: Ctl+SPACE, h: LEFT ALT}
+  - {t: BACKSPACE, h: raise}
+  - LEFT SHIFT
   lower:
-  - '~'
-  - '@'
-  - '{'
-  - '}'
-  - '%'
-  - '*'
-  - '7'
-  - '8'
-  - '9'
-  - '-'
-  - ^
-  - '#'
-  - (
-  - )
-  - $
-  - _
-  - '4'
-  - '5'
-  - '6'
-  - +
-  - {t: '&', s: '|'}
-  - <
-  - '['
-  - ']'
-  - '>'
-  - Gui+C
-  - Gui+Z
-  - '0'
-  - '1'
-  - '2'
-  - '3'
-  - '='
+  - ESC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+Gui+Q
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PREV
+  - VOL DN
+  - VOL UP
+  - NEXT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   raise:
-  - ESC
-  - {t: ESC, s: '`'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: mouse2, h: toggle}
-  - {t: trackb_off, h: toggle}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - TAB
-  - {t: LCTRL, h: sticky}
-  - {t: LALT, h: sticky}
-  - {t: LGUI, h: sticky}
-  - {t: LSHIFT, h: sticky}
+  - {t: ▽, type: trans}
+  - '`'
+  - '-'
+  - '='
   - LEFT
   - DOWN
   - UP
   - RIGHT
+  - ;
+  - Ctl+Z
   - {t: ▽, type: trans}
-  - CAPS
-  - '`'
-  - '!'
-  - '"'
-  - ''''
-  - Ctl+UP
-  - Sft+Gui+4
-  - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - RIGHT
+  - Ctl+C
+  - '['
+  - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - \
+  - {t: ▽, type: trans}
+  - LEFT SHIFT
+  - Alt+LEFT COMMAND
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -140,7 +140,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - VOL DN
+  - {t: VOL DN, type: held}
   - VOL UP
   - ESC
   - F1
@@ -149,7 +149,7 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   mouse:
