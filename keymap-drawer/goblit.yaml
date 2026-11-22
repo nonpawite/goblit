@@ -27,7 +27,7 @@ layers:
   - V
   - B
   - {t: Gui+SPACE, h: lower}
-  - {t: ▽, type: trans}
+  - LEFT CONTROL
   - N
   - M
   - ','
@@ -65,7 +65,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - Gui+ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -98,7 +98,7 @@ layers:
   - RIGHT
   - ;
   - Ctl+Z
-  - {t: ▽, type: trans}
+  - LEFT CONTROL
   - Ctl+C
   - '['
   - ']'
