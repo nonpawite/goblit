@@ -27,7 +27,7 @@ layers:
   - V
   - B
   - {t: Gui+SPACE, h: lower}
-  - LEFT CONTROL
+  - {t: ESC, h: LEFT CONTROL}
   - N
   - M
   - ','
@@ -39,7 +39,7 @@ layers:
   - {t: BACKSPACE, h: raise}
   - LEFT SHIFT
   lower:
-  - ESC
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
